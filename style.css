@@ -1,0 +1,714 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-image:url(img/body-bg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.container-fluid{
+    width: 100%;
+    height: 100px;
+    position:fixed;
+    margin-top: 80px;
+}
+.container-fluid .navbar-brand{
+    width: 70px;
+    height: 80px;
+    margin-left: 160px;
+}
+
+
+.navbar-nav{
+    margin-left: 200px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 25px;
+    margin-left: 20px;
+    color: white !important;
+}
+.collapse .btn{
+    margin-right: 200px;
+
+}
+
+.collapse .btn .fa-arrow-right{ 
+    border: none;
+    position: absolute;
+    color: white;
+    margin-left: 125px;
+    margin-top: 23px;
+    font-size: 20px;
+}
+
+.btn h5{
+    margin-top: -40px;
+    margin-left: -20px;
+    color: white !important;
+    text-transform: capitalize;
+}
+/* //////////////// slader///////////////////// */
+.slaider{
+    position: absolute;
+    margin-top: 5px;
+    width: 100%;
+    height: 700px;
+}
+.slaider img{
+    width: 100%;
+    height: 100%;
+    
+}
+.slaider .heroimg{
+    margin-top: -5px;
+}
+
+.slaider h3{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 150px;
+    font-size: 120px;
+    color: white !important;
+    font-family: "Metal Mania", system-ui;
+
+}
+.slaider p{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 430px;
+    font-size: 25px;
+    color: white !important;
+
+}
+.slaider .btn{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 500px;
+    font-size: 25px;
+    color: white !important;
+    border: none;
+}
+.btnn .fa-arrow-right{
+    position: absolute;
+    color: white;
+    margin-left: 127px;
+    margin-top: 23px;
+    font-size: 20px;
+}
+
+.slaider .inboximg{
+    position: absolute;
+    width: 40%;
+    height:550px;
+    margin-left: 750px;
+    margin-top: 150px;
+}
+
+/* ///////////////////row//////////////////////////// */
+.threebox{
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    margin-top: 752px;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    /* font-family: "Exo", sans-serif; */
+
+}
+.threebox h1{
+    font-family: "Metal Mania", system-ui;
+
+}
+
+.set{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 100px;
+    
+}
+.hh{
+    position:absolute;
+    margin-top: 260px;
+    margin-left: 100px;
+    font-size: 35px;
+    
+}
+.hhh{
+    margin-left: 60px;
+
+}
+
+.pp{
+    position:absolute;
+    margin-top: 330px;
+    margin-left: 70px;
+    font-size: 20px; 
+}
+/* ////////////slaider 2/////////////////////// */
+.slaider2{
+    width: 80%;
+    margin-top: 1400px;
+    margin-left: 150px; 
+}
+.slaider2 .playbtn1,.playbtn2,.playbtn3{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+
+
+/* //////////service////////// */
+
+
+.service h1{
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+    font-size: 65px;
+    font-family: "Metal Mania", system-ui;
+
+}
+.service p{
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+    font-size: 25px;
+}
+
+
+.sk .ss{
+    width: 80%;
+    height: 200px;
+    background-color:rgb(4, 4, 41);
+    margin-left: 150px;
+    margin-top: 20px;
+    border-radius: 30px;
+}
+.sk .ss h5{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: "Metal Mania", system-ui;
+
+}
+.sk .ss h2{
+    color: white;
+    font-size: 35px;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: "Metal Mania", system-ui;
+
+}
+.sk .ss h3{
+    color: white;
+    margin-top: 20px;
+    margin-left: 30px;
+    font-family: "Metal Mania", system-ui;
+
+}
+
+.sk .ss .imgbox1{
+   
+    position: absolute;
+    margin-left: 500px;
+    margin-top: -150px;
+   
+}
+.sk .ss .imgbox2{
+   
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -150px;
+}
+.sk .ss .imgbox3{
+   
+    position: absolute;
+    margin-left: 880px;
+    margin-top: -140px;
+}
+.sk .ss .imgbox4{
+    position: absolute;
+    margin-left: 990px;
+    margin-top: -150px;
+}
+
+
+.service .btnbox{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 100px;
+}
+.service .btnbox img{
+    width: 250px;
+}
+ .btnbox h5{
+    position: absolute;
+    margin-left: 40px;
+    margin-top: -60px;
+    
+}
+.btnbox .fa-arrow-right{
+    position: absolute;
+    color: white;
+    margin-left: 200px;
+    margin-top: 23px;
+    font-size: 20px;
+}
+/* //////////4 row////////////////// */
+.col .border{
+    margin-top: 350px;
+    height: 200px;
+    border: none !important;
+
+}
+
+.border h5{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 50px;
+    color: yellow;
+    font-family: "Metal Mania", system-ui;
+
+}
+.border p{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+    color:white;
+}
+/* /////////////service//////////// */
+.services-box h1{
+    text-align: center;
+    color: white;
+    font-size: 65px;
+    margin-top: 100px;
+    font-family: "Metal Mania", system-ui;
+
+}
+
+.services-box p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+.forbox .border{
+    height: 300px;
+    margin-top: 20px;
+    border-radius: 40px;
+}
+.forbox .border img{
+    width: 100%;
+    height: 100%;
+}
+
+.forbox .inbox1 .btn{
+    margin-left: 180px;
+    margin-top: -200px;
+    display: none;
+}
+.forbox:hover .btn{
+    display: block;
+} 
+
+
+.forbox .inbox2 .btn{
+    margin-left: 180px;
+    margin-top: -200px;
+    display: none;
+}
+.forbox:hover .btn{
+    display: block;
+}
+
+
+.forbox .inbox3 .btn{
+    margin-left: 180px;
+    margin-top: -200px;
+    display: none;
+}
+.forbox:hover .btn{
+    display: block;
+} 
+
+
+.forbox .inbox4 .btn{
+    margin-left: 180px;
+    margin-top: -200px;
+    display: none;
+}
+.forbox:hover .btn{
+    display: block;
+} 
+
+
+
+.forbox .border .btn img{
+    width: 250px;
+    height: 80px;
+}
+.forbox .border .btn h2{
+    color: white;
+    margin-top: -55px;
+    font-size: 22px;
+}
+.forbox .border .btn .fa-arrow-right{
+    position: absolute;
+    color: white;
+    margin-left: 210px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+/* //////////game studio////////////////// */
+
+
+
+.game-studio h1{
+    margin-top: 90px;
+    margin-left: 150px;
+    font-size: 55px;
+    color: white;
+}
+.game-studio span{
+    color: violet;
+}
+
+.slidegame{
+    width: 80%;
+    height: 420px;
+    margin-top: 50px;
+    margin-left: 160px; 
+    background-color:rgb(4, 4, 41);
+    border-radius: 30px;
+}
+
+.gameimg .setimg,.setimg2{
+    width: 250px;
+    height:250px;
+    margin-top: -350px;
+    margin-left: 120px;
+}
+
+.gameimg p{
+    color: white;
+    margin-left: 450px;
+    margin-top: 120px;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+.gameimg h3{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* //////////////lasted blog/////////////////// */
+.lastedblog h3{
+    color: white;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 160px;
+    font-family: "Metal Mania", system-ui;
+
+}
+
+.lastedblog p{
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+}
+
+.coloms .col1{
+    width: 600px;
+    height: 250px;
+    background-color:rgb(4, 4, 41);
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}  
+.coloms .col1 img{
+    margin: 25px;
+} 
+.col1 h5{
+    position: absolute;
+    color: white;
+    margin-top: 20px;
+    margin-left: 300px;
+}
+.col1 h6{
+    position: absolute;
+    color: white;
+    margin-top: 80px;
+    margin-left: 270px;
+    font-size: 25px;
+   /* line-height: 5px; */
+}
+/* .col1:hover h6{
+    color: #B154F0;
+} */
+
+
+/* /////////contact////////////// */
+
+.contact .col .box{
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+    border-radius: 10px;
+    margin-top: 150px;
+}
+.contact .col .box img{
+    width: 100%;
+    height: 100%;
+}
+.contact .col .box h1{
+    position: absolute;
+    color: white;
+    margin-top: 50px;
+    margin-left: 80px;
+    font-size: 70px;
+    font-family: "Metal Mania", system-ui;
+
+}
+.contact .col .box .btn{
+    position: absolute;
+    margin-left: 900px;
+    margin-top: 100px;
+    width: 280px;
+    height: 100px;
+    
+}
+.btn h2{
+    position: absolute;
+    margin-top: -55px;
+    margin-left: 20px;
+    color: white !important;
+    text-transform: capitalize;
+    font-size: 25px
+}
+
+.contact .col .box .btn .fa-arrow-right {
+    position: absolute;
+    color: white;
+    margin-left: 220px;
+    margin-top: 35px;
+    font-size: 22px;
+}
+
+
+/* /////////footer/////////// */
+.footer{
+    margin-top: 80px;
+}
+
+.footer .box{
+    width: 300px;
+    height: 400px;
+    background-color:transparent;
+    float: left;
+    margin: 10px;
+    border-radius: 10px;
+}
+.footer .box .footerimg{
+    position: absolute;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+.footer .box p{
+    position: absolute;
+    color: white;
+    margin-top: 100px;
+    margin-left: 20px;
+    font-size: 17px;
+}
+.footer .box h1{
+    position: absolute;
+    color: white;
+    margin-left: 80px;
+    margin-top: 20px;
+    font-family: "Metal Mania", system-ui;
+
+}
+.footer .box .icans{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 50px;
+    
+}
+.footer .box .icans .icans1{
+    position: absolute;
+    margin-top: 10px;
+}
+.footer .box .icans .icans2{
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.footer .box .icans .icans3{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 10px;
+
+}
+.footer .box .icans .icans4{
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 10px;
+
+}
+.footer .box .icans .fa-facebook{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -23px; 
+    font-size: 20px;
+    color: white;
+
+}
+.footer .box .icans .fa-dribbble{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -28px; 
+    font-size: 20px;
+    color: white;
+}
+.footer .box .icans .fa-youtube-play{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -28px; 
+    font-size: 20px;
+    color: white;
+}
+.footer .box .icans .fa-twitter{
+    position: absolute;
+    margin-top: 12px;
+    margin-left: -28px; 
+    font-size: 20px;
+    color: white;
+}
+
+/* /////...//// */
+.footer .box h2{
+    color:#B154F0;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+.footer .box h3{
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 20px;
+
+}
+.footer .box h4{
+    color:#B154F0;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 20px; 
+}
+.footer .box h5{
+    color: white;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 30px;  
+}
+
+/* /////...//// */
+.footer .box .col .minibox{
+    width: 70px;
+    height: 70px;
+    /* background-color: blue; */
+    float: left;
+    margin: 10px;
+    margin-top: 100px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+.footer .box .col .miniboxx{
+    width: 70px;
+    height: 70px;
+    /* background-color: blue; */
+    float: left;
+    margin: 10px;
+    margin-top: 25px;
+    margin-left: 15px;
+    border-radius: 10px;
+}
+/* /////...//// */
+.footer .box .h6box{
+    margin-top: 100px;
+    margin-left: 80px;
+}
+.footer .box .h6box ul li{
+    color: white;
+    list-style-type: none;
+    margin-top: 20px;
+    margin-left: -20px;
+}
+.footer .box .h6box ul li a{
+    text-decoration: none;
+    color: white;
+}
+.footer .box .h6box ul li:hover a{
+    color: violet;
+}
+
+
+
+/* ///////////lastslaider//////////// */
+.lastslaider{
+    width: 100%;
+    height: 60px;
+    background-color:RGB(20, 14, 56);
+    margin-top: 30px;
+}
+.lastslaider h6{
+    position: absolute;
+    color: white;
+    margin-top: 15px;
+    margin-left: 150px;
+}
+.lastslaider img{
+    margin-top: 10px;
+    margin-left: 740px; 
+}
+.lastslaider h5{
+    position: absolute;
+    color: white;
+    margin-top: 15px;
+    margin-left: 1000px;
+}
+
+
+/* ////////media screen////////////// */
+
+@media screen and (max-width:480px) {
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
